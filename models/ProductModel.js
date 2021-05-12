@@ -57,7 +57,7 @@ Product.addProduct =  function (newProd, result){
     console.log(newProduct);
      newProduct.save(err=>{
         if(!err) {
-            console.log(newProduct);
+            
             Product.updateOne(
                 {_id:newProduct._id},
                 {$set: {id:newProduct._id}},
@@ -66,7 +66,7 @@ Product.addProduct =  function (newProd, result){
                     else console.log(err);
                 }
             )
-            console.log(newProduct);
+            
             return result(null, newProduct)
         }
         else {

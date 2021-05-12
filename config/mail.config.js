@@ -1,4 +1,5 @@
 const nodemailer = require("nodemailer")
+const chalk = require('chalk')
 
 const transport = {
     host: 'smtp.gmail.com',
@@ -16,7 +17,7 @@ transporter.verify((error, success)=> {
     if(error)
         console.log(error)
     else
-        console.log("ready to send mails")
+        console.log(chalk.green("ready to send mails"))
 })
 
 

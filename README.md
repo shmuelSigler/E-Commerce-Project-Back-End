@@ -1,6 +1,5 @@
 # My E-Commerce Project
 
-This project was deployed with Netlify&Heroku - [E-Commerce Project](https://mern-3d-store.netlify.app/).
 
 This  end-to-end project was made with passion and devotion. Enjoy this site and begin to explore what the catalog offers. Choose from variety of homemade 3D printed models.
 
